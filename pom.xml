@@ -14,7 +14,7 @@
 	<name>AMSAngular</name>
 	<description>AMS REST API</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -36,6 +36,7 @@
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
+			<version>8.0.31</version>
 		</dependency>
 		<!--dependency>
         <groupId>com.h2database</groupId>
@@ -55,6 +56,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ams2023</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

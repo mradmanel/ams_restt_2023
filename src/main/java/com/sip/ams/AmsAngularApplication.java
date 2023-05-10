@@ -9,7 +9,7 @@ public class AmsAngularApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AmsAngularApplication.class, args);
 	System.out.println("hello angular");
-	
+	System.out.println("projet fullstag");
 	}
 
 }
